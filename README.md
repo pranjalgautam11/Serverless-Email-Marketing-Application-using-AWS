@@ -4,7 +4,7 @@ This serverless email marketing application leverages AWS cloud services to send
 
 ## Architecture
 
-![Architecture Diagram](architecture.jpg)
+![Architecture Diagram](Architecture.jpg)
 
 ## Features
 
