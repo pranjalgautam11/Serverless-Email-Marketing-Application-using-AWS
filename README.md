@@ -1,0 +1,1 @@
+# Serverless-Email-Marketing-Application-using-AWS
