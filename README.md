@@ -38,7 +38,7 @@ This serverless email marketing application leverages AWS cloud services to send
 ### 4. Configure Amazon SES
 
 - Verify your sender domain with Amazon SES:
-  1. Open the Amazon SES console at [Amazon SES Console](https://console.aws.amazon.com/ses/).
+  1. Open the Amazon SES console.
   2. In the navigation pane, under **Identity Management**, choose **Domains**.
   3. Choose **Verify a New Domain**.
   4. In the **Verify a New Domain** dialog box, enter your domain name, and then choose **Verify This Domain**.
