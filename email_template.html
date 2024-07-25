@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Newsletter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 800px;
+        }
+        .header {
+            text-align: center;
+            background-color: #232f3e;
+            color: white;
+            padding: 10px 0;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content p {
+            line-height: 1.6;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            background-color: #ff9900;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .cta a:hover {
+            background-color: #e68a00;
+        }
+        .footer {
+            text-align: center;
+            color: #777;
+            padding: 10px 0;
+            border-top: 1px solid #eaeaea;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+                padding: 10px;
+            }
+            .header h1 {
+                font-size: 1.5em;
+            }
+            .content {
+                margin: 10px 0;
+            }
+            .content h2 {
+                font-size: 1.2em;
+            }
+            .content p, .content ul {
+                font-size: 0.9em;
+            }
+            .cta a {
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to AWS Cloud Services</h1>
+        </div>
+        <div class="content">
+            <p>Hello {{FirstName}}!</p>
+            <h2>About AWS</h2>
+            <p>Amazon Web Services (AWS) is a comprehensive and widely adopted cloud platform, offering over 200 fully featured services from data centers globally. Millions of customers—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster.</p>
+
+            <h2>Why Choose AWS?</h2>
+            <p>AWS offers a broad set of global cloud-based products including compute, storage, databases, analytics, networking, mobile, developer tools, management tools, IoT, security, and enterprise applications. These services help organizations move faster, lower IT costs, and scale. Here are some key reasons to choose AWS:</p>
+            <ul>
+                <li><strong>Comprehensive:</strong> AWS offers over 200 fully featured services for a wide range of technologies, industries, and use cases.</li>
+                <li><strong>Global Network:</strong> AWS provides a global cloud infrastructure with more geographic regions and Availability Zones than any other cloud provider.</li>
+                <li><strong>Security:</strong> AWS is architected to be the most flexible and secure cloud computing environment available today.</li>
+                <li><strong>Cost-Effective:</strong> Pay-as-you-go pricing allows you to scale your business without worrying about large upfront expenses.</li>
+                <li><strong>Innovation:</strong> AWS continuously innovates and brings new services and features that help customers leverage the latest technologies.</li>
+            </ul>
+
+            <div class="cta">
+                <a href="https://aws.amazon.com" target="_blank">Learn More</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 AWS Cloud Services. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
