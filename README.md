@@ -33,6 +33,8 @@ This serverless email marketing application leverages AWS cloud services to send
 ### 3. Upload Files
 
 - Upload your email template (with `{{FirstName}}` placeholder) and `contacts.csv` file to the S3 bucket.
+- [Email Template](email_template.html)
+- [Contacts CSV](contacts.csv)
 
 ### 4. Create Lambda Function
 
@@ -49,8 +51,14 @@ This serverless email marketing application leverages AWS cloud services to send
 
 - Create an EventBridge rule to schedule the Lambda function invocation at desired intervals.
 
-## Lambda Function Code
+## AWS Lambda Function Code
 
-Here's a sample Lambda function in Python:
+Here's the txt file which contains the Lambda and necessary IAM policy for lambda function
+
+- [Lambda_Function](Lambda_Function.txt)
+
+
+
+
 
 
