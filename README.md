@@ -17,7 +17,6 @@ This serverless email marketing application leverages AWS cloud services to send
 ## Prerequisites
 
 - AWS Account
-- AWS CLI configured
 - Necessary AWS services enabled (Lambda, S3, SES, EventBridge, IAM)
 
 ## Setup Instructions
