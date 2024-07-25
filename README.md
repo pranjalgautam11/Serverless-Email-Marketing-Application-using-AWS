@@ -63,4 +63,10 @@ Refer to the [Lambda Function Code](Lambda_Function.txt) for the detailed implem
 
 ### 7. Schedule EventBridge Event
 
-- Create an EventBridge rule to schedule the Lambda function invocation at desired intervals.
+- Create an EventBridge rule to schedule the Lambda function invocation at desired intervals. eg: I have scheduled the event to send mail at 22:40.
+
+## Results
+
+- Check your inbox for the mail and the time
+
+![Result](Email.jpg)
